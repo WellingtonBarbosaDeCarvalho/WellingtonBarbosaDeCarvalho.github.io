@@ -32,12 +32,12 @@
        
        .button{
         text-align: center;
-        background-color: rgb(15, 206, 40);
+        background-color: rgb(7, 185, 31);
         padding: 4px 25px;
         text-align: none;
         text-decoration: none;
         border-radius: 16%;
-        color: aliceblue;
+        color: rgb(255, 255, 255);
        }
        img{
         border-radius: 50%;
@@ -77,6 +77,7 @@
         color: aliceblue;
         text-align: center;
         font-size: 20px;
+        font-family: monospace;
        }
 
        ul{
@@ -84,6 +85,15 @@
         color: aliceblue;
         text-align: center;
         font-size: 20px;
+       }
+       #primeiroAtributo{
+        font-size: larger;
+       }
+       #segundoAtributo{
+        font-size: medium;
+       }
+       #terceiroAtributo{
+        font-size: 18px;
        }
     </style>
 
@@ -117,16 +127,16 @@
         <br><h3> alguns atributos pessoais:</h3>
         <br> 
         <p><ul>
-            <li>Apaixonado por tecnologias.</li>
-            <li>Vontade de aprendizado.</li>
-            <li>Paciência.</li>
+            <p><li id="primeiroAtributo">Apaixonado por tecnologias.</li></p>
+            <li id="segundoAtributo">Vontade de aprendizado.</li></p>
+            <li id="terceiroAtributo">Paciência.</li></p>
         </ul>
     </p><br><br><br>
         
         
         <h3 class="titulo">Algumas da habilidade que vou desenvolver aqui na #Trybe</h3>
         
-        <ul>
+        <ul id="formacaoTrybe">
         <li>JavaScript</li>
         <li>HTML</li>
         <li>CSS</li>
